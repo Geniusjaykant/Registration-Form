@@ -1,5 +1,5 @@
 body {
-    background-color: #0C356A;
+    background-color: #146C94;
     background-position: center;
     padding: 0;
     margin: 0;
@@ -18,7 +18,7 @@ h1 {
 }
 
 section {
-    background-color: #40F8FF;
+    background-color: rgb(255, 255, 255);
     width: 40%;
     margin: 40px auto;
     border-radius: 5px;
@@ -45,11 +45,17 @@ input {
     margin-left: 150px;
     border: none;
     color: black;
+    background-color: rgb(225, 225, 225);
+    border-radius: 0.25rem;
+    outline: none;
 } 
 
 #male {
     margin-left: 150px;
     width: 16px;
+    background-color: rgb(225, 225, 225);
+    outline: none;
+    color: black;
 }
 
 .man {
@@ -59,6 +65,10 @@ input {
 #female {
     margin-left: 15px;
     width: 16px;
+    background-color: rgb(225, 225, 225);
+    border: none;
+    outline: none;
+    color: black;
 }
 
 .woman {
@@ -67,6 +77,9 @@ input {
 
 #checkbox {
     width: 15px;
+    background-color: rgb(225, 225, 225);
+    outline: none;
+    color: black;
     
 }
 
@@ -85,12 +98,18 @@ button{
     border: none;
     border-radius: 4px;
     width: 350px;
-    background-color: #57375D;
+    background-color: rgb(68, 18, 232);
     font-size: 15px;
     display: inline-block;
     margin: 0px 150px 0px 130px; 
     color: white;
+    outline: none;
 
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(41, 4, 164);
 }
 
 .login {
@@ -102,3 +121,4 @@ button{
 a {
     text-decoration: none;
 }
+
