@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>   
+    <section>
+        <form method="get" class="form">
+            <div><h1>Registration Form</h1></div>
+            <!-- first name -->
+            <div>
+                <label for="fname">First Name</label><br>
+                <input type="text" id="fname" name="fname" placeholder=" " required>
+            </div><br>
+            <!-- last name -->
+            <div>
+                <label for="lname">Last Name</label><br>
+                <input type="text" id="lname" name="lname" placeholder=" " required>
+            </div><br>
+            <!-- email -->
+            <div>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" placeholder="Enter email" required>
+            </div><br>
+            <!-- contact number -->
+            <div>
+                <label for="phone">Contact No.</label><br>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="eg-0123456789" title="required">
+            </div><br>
+            <!-- DOB -->
+            <div>
+                <label for="DOB">Birthday </label><br>
+                <input type="date" id="DOB" name="DOB" placeholder=" " title="required">
+            </div><br>
+            <!-- Gender -->
+            <div id="radio">
+               <span>
+                <input type="radio" id="male" name="mname" value="MALE">
+                <label for="male" class="man">male</label>
+               </span>
+               <span>
+                <input type="radio" id="female" name="fname" value="FEMALE">
+                <label for="female" class="woman">female</label>
+               </span>
+            </div><br>
+            <!-- password -->
+            <div>
+                <label for="psw">Password</label><br>
+                <input type="password" id="psw" name="psw" placeholder="Enter Password" pattern="(?=.[a-z])(?=.[0-9]).{10,}">
+            </div><br>
+            <div>
+                <label for="psw-repeat">Repeat Password</label><br>
+                <input type="password" id="psw-repeat" name="psw-repeat" placeholder="Repeat Password" pattern="(?=.[a-z])(?=.[0-9]).{10,}" required>
+            </div><br>
+            <!-- By creating an account you agree to our Terms & Privacy. -->
+            <div>
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox" class="checkbox">By creating an account you agree to our</label><br>
+                <p class="terms"><a href="#">Terms & Privacy</a></p>
+            </div><br>
+
+            <!-- Submit & Login -->
+            <div>
+                <button type="submit" class="Registerbtn">
+                    Register
+                </button>
+            </div><br>
+            
+             <p class="login">Already have an account? <a href="#"><b>login</b></a>.</p>           
+            
+
+        </form>
+    </section>
+</body>
+</html>

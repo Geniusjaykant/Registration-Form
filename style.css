@@ -1,0 +1,112 @@
+body {
+    background-color: #0C356A;
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form {
+    text-align: ;
+    
+}
+
+h1 {
+    padding-top: 5px;
+    text-align: center; 
+    font-size: 25px;
+    color: #322653;   
+    
+    
+}
+
+section {
+    background-color: #40F8FF;
+    width: 40%;
+    margin: 40px auto;
+    border-radius: 5px;
+    border: 5px solid #279EFF;
+}
+
+div {
+    /* font-family: 'Times New Roman', Times, serif; */
+    overflow-x: hidden;
+    background-position: center;
+}
+
+label {
+    margin-left: 150px;
+    color: rgb(0,0,22);
+    display: inline-block;
+    font-size: 18px;
+    
+}
+
+input {
+    width: 50%; 
+    height: 28px; 
+    display: inline-block;
+    margin-left: 150px;
+    /* text-align: center; */
+    border: none;
+    color: black;
+} 
+
+#male {
+    /* display: inline-block; */
+    margin-left: 150px;
+    width: 16px;
+}
+
+.man {
+    margin: 0;
+}
+
+#female {
+    margin-left: 15px;
+    width: 16px;
+}
+
+.woman {
+    margin: 0;
+}
+
+#checkbox {
+    width: 15px;
+    
+}
+
+.checkbox {
+    margin-left: 2px;
+}
+
+.terms {
+    text-align: center;
+}
+
+
+button{
+    text-align: center;
+    padding: 15px 170px 15px 150px;
+    border: none;
+    border-radius: 4px;
+    width: 350px;
+    background-color: #57375D;
+    font-size: 15px;
+    display: inline-block;
+    margin: 0px 150px 0px 130px; 
+    color: white;
+
+}
+
+.login {
+    text-align: center;
+    margin-top: 0;
+    font-size: 18px
+}
+
+a {
+    text-decoration: none;
+}
