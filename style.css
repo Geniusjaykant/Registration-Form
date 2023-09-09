@@ -1,17 +1,12 @@
 body {
     background-color: #0C356A;
-    /* background-size: cover; */
-    /* background-repeat: no-repeat; */
     background-position: center;
     padding: 0;
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
 }
+  
 
-.form {
-    text-align: ;
-    
-}
 
 h1 {
     padding-top: 5px;
@@ -31,7 +26,6 @@ section {
 }
 
 div {
-    /* font-family: 'Times New Roman', Times, serif; */
     overflow-x: hidden;
     background-position: center;
 }
@@ -49,13 +43,11 @@ input {
     height: 28px; 
     display: inline-block;
     margin-left: 150px;
-    /* text-align: center; */
     border: none;
     color: black;
 } 
 
 #male {
-    /* display: inline-block; */
     margin-left: 150px;
     width: 16px;
 }
